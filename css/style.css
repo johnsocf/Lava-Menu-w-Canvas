@@ -1,0 +1,49 @@
+body {
+	font-family: georgia;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+#lava {
+	position: relative;
+	text-align: center;
+	width: 583px;
+	height: 40px;
+}
+
+#lava ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+	position: absolute;
+	left:110px;
+	top: 0;
+	z-index: 100;
+}
+
+#lava ul li {
+	margin: 0 15px;
+	float: left;
+}
+
+#lava #box {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 50;
+	background: #ccc;
+	height: 20px;
+	padding-right: 8px;
+	margin-left: -10px;
+}
+
+#lava #box .head {
+	background: #eee;
+	height: 20px;
+	padding-left: 10px;
+}
